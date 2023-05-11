@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["CircularStd", ...defaultTheme.fontFamily.sans],
+        sans: ["Basier Circle", ...defaultTheme.fontFamily.sans],
       },
     },
   },

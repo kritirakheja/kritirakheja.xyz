@@ -204,7 +204,7 @@ export default function Home() {
                     alt="travel"
                   />
                 </div>
-                <div className="flex items-center justify-center h-16 pt-5">
+                <div className="flex items-center justify-center h-16">
                   <span>travel ✿ travel ✿ travel</span>
                 </div>
               </div>
