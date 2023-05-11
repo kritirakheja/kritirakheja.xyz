@@ -106,15 +106,7 @@ export default function Home() {
         <section className="px-6 md:px-12 pt-24 md:pt-40 pb-56 text-[#333333] flex-1">
           <div className="flex flex-col justify-between max-w-5xl mx-auto md:flex-row">
             <div className="max-w-md">
-              <Image
-                width={64}
-                height={64}
-                className="w-16 h-16 rounded-full"
-                src={require("../images/profile.jpg")}
-                alt="Kriti Rakheja"
-                priority={true}
-              />
-              <h1 className="mt-8 text-4xl font-bold">Hey, I am Kriti 👋</h1>
+              <h1 className="text-4xl font-bold">Hey, I am Kriti 👋</h1>
               <p className="mt-4 text-xl leading-relaxed">
                 A psychology enthusiast turned product strategist. With a
                 passion for innovation and a knack for learning, I&apos;ve spent
@@ -204,7 +196,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex">
-              <div className="px-2 pt-2 pb-0 mt-12 transform translate-x-4 bg-white border-2 border-current md:-translate-x-20 rotate-12">
+              <div className="px-2 pt-2 pb-0 mt-12 transform translate-x-4 bg-white border-2 border-current md:mt-0 md:-translate-x-20 rotate-12">
                 <div className="border-2 border-current h-72 w-72">
                   <Image
                     className="grayscale"
